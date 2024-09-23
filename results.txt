@@ -1,0 +1,248 @@
+keywords-changes
+Training Dataset Performance
+
+Random Forest
+Kappa
+0.5838524004123795
+Average Cross Validation score :0.7357142857142854
+
+GBM
+Kappa
+0.5673769036098523
+Average Cross Validation score :0.7265306122448979
+
+Decision Tree
+Kappa
+0.5327674537629273
+Average Cross Validation score :0.7016326530612247
+
+Testing Dataset Performance
+
+Random Forest
+Kappa
+0.5816526034163407
+Confusion Matrix
+[[27  3  8]
+ [ 4 56 10]
+ [10 12 43]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.66      0.71      0.68        38
+           c       0.79      0.80      0.79        70
+           p       0.70      0.66      0.68        65
+
+    accuracy                           0.73       173
+   macro avg       0.72      0.72      0.72       173
+weighted avg       0.73      0.73      0.73       173
+
+Accuracy
+0.7283236994219653
+
+GBM
+Kappa
+0.5359537810791293
+Confusion Matrix
+[[26  8  4]
+ [ 6 56  8]
+ [ 9 17 39]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.63      0.68      0.66        38
+           c       0.69      0.80      0.74        70
+           p       0.76      0.60      0.67        65
+
+    accuracy                           0.70       173
+   macro avg       0.70      0.69      0.69       173
+weighted avg       0.71      0.70      0.70       173
+
+Accuracy
+0.6994219653179191
+
+Decision Tree
+Kappa
+0.555407072368421
+Confusion Matrix
+[[26  3  9]
+ [ 3 54 13]
+ [12 10 43]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.63      0.68      0.66        38
+           c       0.81      0.77      0.79        70
+           p       0.66      0.66      0.66        65
+
+    accuracy                           0.71       173
+   macro avg       0.70      0.71      0.70       173
+weighted avg       0.71      0.71      0.71       173
+
+Accuracy
+0.7109826589595376
+
+combined-combined
+Training Dataset Performance
+
+Random Forest
+Kappa
+0.5660014778422005
+Average Cross Validation score :0.723469387755102
+
+GBM
+Kappa
+0.5907537334552405
+Average Cross Validation score :0.7402040816326532
+
+Decision Tree
+Kappa
+0.42366320164849136
+Average Cross Validation score :0.6308163265306121
+
+Testing Dataset Performance
+
+Random Forest
+Kappa
+0.5800103305785124
+Confusion Matrix
+[[24  7  7]
+ [ 6 54 10]
+ [ 8  9 48]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.63      0.63      0.63        38
+           c       0.77      0.77      0.77        70
+           p       0.74      0.74      0.74        65
+
+    accuracy                           0.73       173
+   macro avg       0.71      0.71      0.71       173
+weighted avg       0.73      0.73      0.73       173
+
+Accuracy
+0.7283236994219653
+
+GBM
+Kappa
+0.5952690408110215
+Confusion Matrix
+[[23  6  9]
+ [ 4 54 12]
+ [ 6  8 51]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.70      0.61      0.65        38
+           c       0.79      0.77      0.78        70
+           p       0.71      0.78      0.74        65
+
+    accuracy                           0.74       173
+   macro avg       0.73      0.72      0.73       173
+weighted avg       0.74      0.74      0.74       173
+
+Accuracy
+0.7398843930635838
+
+Decision Tree
+Kappa
+0.5310431110879424
+Confusion Matrix
+[[20  7 11]
+ [ 6 54 10]
+ [ 6 12 47]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.62      0.53      0.57        38
+           c       0.74      0.77      0.76        70
+           p       0.69      0.72      0.71        65
+
+    accuracy                           0.70       173
+   macro avg       0.69      0.67      0.68       173
+weighted avg       0.70      0.70      0.70       173
+
+Accuracy
+0.6994219653179191
+
+keywords-combined
+Training Dataset Performance
+
+Random Forest
+Kappa
+0.5858427408864627
+Average Cross Validation score :0.7363265306122452
+
+GBM
+Kappa
+0.5824919813456337
+Average Cross Validation score :0.7342857142857144
+
+Decision Tree
+Kappa
+0.5468557018230027
+Average Cross Validation score :0.7091836734693877
+
+Testing Dataset Performance
+
+Random Forest
+Kappa
+0.5871121718377088
+Confusion Matrix
+[[24  7  7]
+ [ 3 55 12]
+ [ 8  9 48]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.69      0.63      0.66        38
+           c       0.77      0.79      0.78        70
+           p       0.72      0.74      0.73        65
+
+    accuracy                           0.73       173
+   macro avg       0.73      0.72      0.72       173
+weighted avg       0.73      0.73      0.73       173
+
+Accuracy
+0.7341040462427746
+
+GBM
+Kappa
+0.5345130911725137
+Confusion Matrix
+[[23  6  9]
+ [ 4 51 15]
+ [ 9  9 47]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.64      0.61      0.62        38
+           c       0.77      0.73      0.75        70
+           p       0.66      0.72      0.69        65
+
+    accuracy                           0.70       173
+   macro avg       0.69      0.69      0.69       173
+weighted avg       0.70      0.70      0.70       173
+
+Accuracy
+0.6994219653179191
+
+Decision Tree
+Kappa
+0.5994133991972831
+Confusion Matrix
+[[26  4  8]
+ [ 5 54 11]
+ [ 9  8 48]]
+Classification report
+              precision    recall  f1-score   support
+
+           a       0.65      0.68      0.67        38
+           c       0.82      0.77      0.79        70
+           p       0.72      0.74      0.73        65
+
+    accuracy                           0.74       173
+   macro avg       0.73      0.73      0.73       173
+weighted avg       0.74      0.74      0.74       173
+
+Accuracy
+0.7398843930635838
